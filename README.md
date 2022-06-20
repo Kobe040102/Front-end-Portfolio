@@ -1,2 +1,2 @@
-# Web Portfolio
-# Kobe Shelby | Front-end developer
+#                                                                          Web Portfolio
+#                                                                  Kobe Shelby | Front-end developer
