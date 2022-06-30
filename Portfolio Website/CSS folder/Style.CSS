@@ -1,0 +1,40 @@
+/*Navagation*/
+#nav-bar {
+  float: left;
+  background-color: #333;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+.Nava ul {
+  border: 1px solid black;
+  list-style-type: none;
+  margin: auto;
+  padding: 20px;
+  overflow: hidden;
+}
+.Nava li {
+  float: left;
+  margin-left: 70px;
+  font-size: 30px;
+}
+.Nava a:link {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+/*Header*/
+#Intro {
+  margin: 100px;
+}
+.Head-text {
+  border: 1px solid black;
+  text-align: center;
+  font-style: oblique;
+  color: black;
+}
+/*body*/
+body{
+  margin:0;
+}
