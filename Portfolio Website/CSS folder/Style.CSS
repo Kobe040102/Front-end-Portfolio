@@ -1,14 +1,13 @@
 /*Navagation*/
 #nav-bar {
   float: left;
-  background-color: #333;
+  background-image: url(../Pics/Header\ background.png);
   overflow: hidden;
   top: 0;
   width: 100%;
   position: fixed;
 }
 .Nava ul {
-  border: 1px solid black;
   list-style-type: none;
   margin: auto;
   padding: 20px;
@@ -24,17 +23,62 @@
   color: white;
   text-decoration: none;
 }
-/*Header*/
-#Intro {
-  margin: 100px;
+.Nava a:hover{
+  text-decoration: underline;
+  color:red;
 }
-.Head-text {
-  border: 1px solid black;
-  text-align: center;
+/*Header*/
+#Intro h1 {
+ position: absolute;
+  top: 170px;
+  right: 825px;
+  font-size: 35px;
+  background-color: black;
+  padding: 10px;
+}
+#Intro h2{
+  position: absolute;
+  top:250px;
+  right: 715px;
+  font-size: 40px;
+  background-color: black;
+  padding: 10px;
+
+}
+#Intro {
+  margin:0;
+  padding: 348px;
+  background-image: url(../Pics/controller\ background.png);
   font-style: oblique;
-  color: black;
+  color: white;
 }
 /*body*/
+#main{
+background-color: #333;
+font-size: 25px;
+text-align: center;
+text-decoration: underline;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:white;
+}
 body{
   margin:0;
+}
+.About-me img{
+  width: 4in;
+  height:4in;
+}
+@media screen and (max-width:600px){
+  #Intro{
+      width:100%;
+      float:right;
+  }
+  #nav-bar{
+      width:100%;
+      float:none;
+  }
+  #main{
+    width:100%;
+    float:none;
+  }
 }
