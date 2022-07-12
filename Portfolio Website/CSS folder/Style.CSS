@@ -57,7 +57,6 @@
 background-color: #333;
 font-size: 25px;
 text-align: center;
-text-decoration: underline;
 font-family: Georgia, 'Times New Roman', Times, serif;
 color:white;
 }
@@ -65,17 +64,13 @@ body{
   margin:0;
 }
 .About-me img{
-  width: 4in;
-  height:4in;
+  width: 5in;
+  height:5in;
 }
 @media screen and (max-width:600px){
   #Intro{
       width:100%;
       float:right;
-  }
-  #nav-bar{
-      width:100%;
-      float:none;
   }
   #main{
     width:100%;

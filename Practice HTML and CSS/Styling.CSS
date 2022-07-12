@@ -1,81 +1,80 @@
-body{
-    background-color: #f4f4f4;
-    color:#555;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:16px;
-    line-height:1.7em;
-    margin:0;
+
+.main-brand {
+  font-size: 60px;
+  text-align: center;
+  font-weight: normal;
+  font-family: "great Vibes", cursive;
+  margin: 60px 0 60px 0;
+}
+.story-title {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 30px;
+  margin: 15px 0;
+  text-align: center;
+}
+.story-text {
+  line-height: 1.5;
+}
+.story-img {
+  width: 100%;
+}
+.row {
+  display: flex;
+  align-items: stretch;
+}
+.story {
+  border: 1px solid #333;
+  padding: 5px;
+}
+.quarter {
+  width: 25%;
+  flex-grow: 2;
+}
+.half {
+  width: 50%;
+}
+.three-quarter {
+  width: 75%;
+}
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.container{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
-}
-
-#main-header{
-    background-color:coral;
-    color:#fff;
-}
-#navbar{
-    background-color:#333;
-    color:#fff;
-}
-#navbar ul{
-    padding:0;
-    list-style:none;
-}
-#navbar li{
-    display:inline;
-}
-#navbar a{
-    color:#fff;
+.nav-item a{
     text-decoration: none;
-    font-size: 18px;
-    padding-right:15px;
+    color: #555;
 }
-#showcase{
-    background-image:url(./Images/abstractcoral.jpg);
-    background-position: center right;
-    min-height:300px;
-    margin: bottom 50px;
-    text-align:center;
+.nav-item a:hover{
+    text-decoration: underline;
 }
-
-#showcase h1{
-    color:#fff;
-    font-size:50px;
-    line-height: 1.6em;
-    padding-top:30px;
+.nav-item {
+  width: 100%;
+  flex: 1;
+  display:flex;
+  align-items: center;
+  padding-left:25px;
+  font-size: 30px;
+  color:#555;
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
-#main{
-    float:left;
-    width:70%;
-    padding: 0 30px;
-    box-sizing:border-box;
+.nav-item:nth-child(1) {
+  background-color: #ffeaa7;
 }
-#sidebar{
-    float:right;
-    width: 30%;
-    background: #333;
-    color:#fff;
-    padding:10px;
-    box-sizing: border-box;
+.nav-item:nth-child(2) {
+  background-color: #81ecec;
 }
-#main-footer{
-    background: #333;
-    color:#fff;
-    text-align: center;
-    padding: 20px;
-    margin-top: 244px;
+.nav-item:nth-child(3) {
+  background-color: #55efc4;
 }
-@media(max-width:600px){
-    #main{
-        width:100%;
-        float:none;
-    }
-    #sidebar{
-        width:100%;
-        float:none;
-    }
+.nav-item:nth-child(4) {
+  background-color: #74b9ff;
+}
+.nav-item:nth-child(5) {
+  background-color: #a29bfe;
 }
