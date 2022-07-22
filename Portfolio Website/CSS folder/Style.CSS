@@ -1,3 +1,24 @@
+/*Header*/
+#Intro h1 {
+  margin: auto;
+  width: 30%;
+  padding:10px;
+  background-color: black;
+}
+#Intro h2{
+  margin:auto;
+  margin-top: 25px;
+  width: 35%;
+  padding:10px;
+  background-color: black;
+}
+#Intro {
+  margin:auto;
+  padding: 348px;
+  background-image: url(../Pics/controller\ background.png);
+  font-style: oblique;
+  color: white;
+}
 /*Navagation*/
 #nav-bar {
   float: left;
@@ -6,6 +27,9 @@
   top: 0;
   width: 100%;
   position: fixed;
+}
+#nav-bar img{
+  margin:0;
 }
 .Nava ul {
   list-style-type: none;
@@ -27,31 +51,6 @@
   text-decoration: underline;
   color:red;
 }
-/*Header*/
-#Intro h1 {
- position: absolute;
-  top: 170px;
-  right: 825px;
-  font-size: 35px;
-  background-color: black;
-  padding: 10px;
-}
-#Intro h2{
-  position: absolute;
-  top:250px;
-  right: 715px;
-  font-size: 40px;
-  background-color: black;
-  padding: 10px;
-
-}
-#Intro {
-  margin:0;
-  padding: 348px;
-  background-image: url(../Pics/controller\ background.png);
-  font-style: oblique;
-  color: white;
-}
 /*body*/
 #main{
 background-color: #333;
@@ -67,10 +66,14 @@ body{
   width: 5in;
   height:5in;
 }
+.About-me {
+  margin: auto;
+  width: 50%;
+}
 @media screen and (max-width:600px){
-  #Intro{
+  #Intro img{
       width:100%;
-      float:right;
+      float:none;
   }
   #main{
     width:100%;

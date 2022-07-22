@@ -1,0 +1,137 @@
+[1mdiff --git a/JavaScript Practice/Practice.js b/JavaScript Practice/Practice.js[m
+[1mindex bd22368..e98179e 100644[m
+[1m--- a/JavaScript Practice/Practice.js[m	
+[1m+++ b/JavaScript Practice/Practice.js[m	
+[36m@@ -1,34 +1,37 @@[m
+[31m-//This is a in-line comment[m
+[31m-[m
+[31m-/* undefined, null, boolean, string, symbol, number, and object */[m
+[31m-//The forecast in kelvin area is 293.[m
+[31m-const kelvin = 293;[m
+[31m-//The forecast is converted into celsius.[m
+[31m-const celsius = kelvin - 273;[m
+[31m-//celsius is converted into fahrenheit.[m
+[31m-let Newton = celsius * (33 / 100);[m
+[31m-Newton = Math.floor(Newton);[m
+[31m-console.log(`The temperature is ${Newton} degrees Newton.`);[m
+[31m-"I LOVE YOU TOO!".toLocaleLowerCase();[m
+[31m-var myName = "I LOVE YOU TOO!".toLocaleLowerCase();[m
+[32m+[m[32m//Variables[m
+[32m+[m[32mvar Sales = 1200;[m
+[32m+[m[32mvar Sales = 9000;[m
+[32m+[m[32mconst monthlyRent = 1500;[m
+[32m+[m[32mconst yearlyRent = monthlyRent * 12;[m
+[32m+[m[32mconsole.log(yearlyRent);[m
+[32m+[m[32mconsole.log(Sales);[m
+[32m+[m[32m//Numbers,Names,Boolean[m
+[32m+[m[32mconst myName = 'Kobe Shelby';[m
+ console.log(myName);[m
+ [m
+[31m-let Season = 'Winter';[m
+[32m+[m[32mconst firstName = "Sean";[m
+[32m+[m[32mconst LastName = "Thompson";[m
+[32m+[m
+[32m+[m[32mconst sentence = "Hello " + firstName + " " + LastName;[m
+[32m+[m[32mconst sentenceWithTemplate = `Hello ${firstName} ${LastName}! How are you!`[m
+[32m+[m
+[32m+[m[32mconsole.log(sentence);[m
+[32m+[m[32mconsole.log(sentenceWithTemplate)[m
+[32m+[m[32m//Control Flow[m
+[32m+[m[32mconst skyIsBlue = true;[m
+ [m
+[31m-switch(Season){[m
+[31m-    case 'Summer':[m
+[31m-        console.log('It\'s to hot out here!');[m
+[31m-        break;[m
+[31m-    case 'Fall':[m
+[31m-        console.log('The leaves are falling everywhere');[m
+[31m-        break;[m
+[31m-    case 'Spring':[m
+[31m-        console.log('Flowers re blooming');[m
+[31m-        break;[m
+[31m-    case 'Winter':[m
+[31m-        console.log('It\'s to chilly out here');[m
+[31m-        break;[m
+[31m-        default:[m
+[31m-            console.log('No Season');[m
+[31m-        break;[m
+[32m+[m[32mif(skyIsBlue){[m
+[32m+[m[32m    console.log("The sky is blue!");[m
+[32m+[m[32m} else {[m
+[32m+[m[32m    console.log("The sky is ... not blue?");[m
+ }[m
+[32m+[m[32m//for-loops[m
+[32m+[m[32mlet characters = 'hi lol';[m[41m [m
+[32m+[m[32mlet timesToRepeat = 10;[m
+[32m+[m[32mlet answer = ' ';[m
+[32m+[m
+[32m+[m[32mfor(let i = 0; i < timesToRepeat; i++){[m
+[32m+[m[32m  answer += characters;[m
+[32m+[m[32m}[m
+[32m+[m[32m  console.log(answer);[m
+[41m+[m
+[1mdiff --git a/Portfolio Website/Html folder/Index.HTML b/Portfolio Website/Html folder/Index.HTML[m
+[1mindex b44039f..36e0ffb 100644[m
+[1m--- a/Portfolio Website/Html folder/Index.HTML[m	
+[1m+++ b/Portfolio Website/Html folder/Index.HTML[m	
+[36m@@ -9,7 +9,7 @@[m
+   </head>[m
+   <!----Header---->[m
+   <header id="Intro">[m
+[31m-    <h1>Kobe Shelby</h1>[m
+[32m+[m[32m    <h1>kobe shelby</h1>[m
+     <h2>Front-End Developer</h2>[m
+   </header>[m
+   <!----Navagation-->[m
+[36m@@ -29,18 +29,7 @@[m
+     <div class="About-me">[m
+       <img src="../Pics/KobeShelby.jpg" alt="Me" />[m
+       <p>[m
+[31m-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,[m
+[31m-        perspiciatis nostrum alias quisquam itaque sequi explicabo provident[m
+[31m-        consequuntur consequatur quaerat molestiae eligendi officiis pariatur[m
+[31m-        assumenda cumque tenetur molestias recusandae doloremque! Qui[m
+[31m-        consequuntur labore ullam perferendis nobis, inventore dolorem libero.[m
+[31m-        Fuga eius dicta magnam quis. Doloribus tenetur quas animi adipisci[m
+[31m-        maxime pariatur, culpa quibusdam impedit molestias laboriosam, autem[m
+[31m-        recusandae a itaque cum voluptatem corrupti illum explicabo provident[m
+[31m-        officiis, est debitis? Nihil et perspiciatis ipsum laboriosam[m
+[31m-        consequatur libero non, suscipit ut praesentium a eum optio commodi,[m
+[31m-        enim quas dicta unde! Aliquid nihil minus ea cupiditate corporis[m
+[31m-        molestiae velit at eveniet deserunt molestias![m
+[32m+[m[32m        Hello! My name is Kobe Shelby[m[41m [m
+       </p>[m
+     </div>[m
+   </body>[m
+[1mdiff --git a/Practice HTML and CSS/Dashboard.html b/Practice HTML and CSS/Dashboard.html[m
+[1mindex 57deade..c4ceb9e 100644[m
+[1m--- a/Practice HTML and CSS/Dashboard.html[m	
+[1m+++ b/Practice HTML and CSS/Dashboard.html[m	
+[36m@@ -4,9 +4,21 @@[m
+     <meta charset="UTF-8">[m
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[31m-    <title>Dashboard</title>[m
+[32m+[m[32m    <link rel="stylesheet" href="Css.Css">[m
+[32m+[m[32m    <title>Login</title>[m
+ </head>[m
+ <body>[m
+[31m-    <a href="Practice.html" target ="_blank"> Back to home Page</a>[m
+[32m+[m[32m    <h1>Login</h1>[m
+[32m+[m[32m    <form>[m
+[32m+[m[32m        <hr/>[m
+[32m+[m[32m        <label>Email</label>[m
+[32m+[m[32m        <input type = "email">[m
+[32m+[m[32m        <hr/>[m
+[32m+[m[32m        <label>Password</label>[m
+[32m+[m[32m        <input type = "password">[m
+[32m+[m[32m        <hr/>[m
+[32m+[m[32m        <input type = "submit">[m
+[32m+[m[32m    </form>[m
+[32m+[m[41m    [m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/Practice HTML and CSS/WebStyle.CSS b/Practice HTML and CSS/WebStyle.CSS[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m

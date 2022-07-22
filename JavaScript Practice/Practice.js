@@ -1,34 +1,37 @@
-//This is a in-line comment
-
-/* undefined, null, boolean, string, symbol, number, and object */
-//The forecast in kelvin area is 293.
-const kelvin = 293;
-//The forecast is converted into celsius.
-const celsius = kelvin - 273;
-//celsius is converted into fahrenheit.
-let Newton = celsius * (33 / 100);
-Newton = Math.floor(Newton);
-console.log(`The temperature is ${Newton} degrees Newton.`);
-"I LOVE YOU TOO!".toLocaleLowerCase();
-var myName = "I LOVE YOU TOO!".toLocaleLowerCase();
+//Variables
+var Sales = 1200;
+var Sales = 9000;
+const monthlyRent = 1500;
+const yearlyRent = monthlyRent * 12;
+console.log(yearlyRent);
+console.log(Sales);
+//Numbers,Names,Boolean
+const myName = 'Kobe Shelby';
 console.log(myName);
 
-let Season = 'Winter';
+const firstName = "Sean";
+const LastName = "Thompson";
 
-switch(Season){
-    case 'Summer':
-        console.log('It\'s to hot out here!');
-        break;
-    case 'Fall':
-        console.log('The leaves are falling everywhere');
-        break;
-    case 'Spring':
-        console.log('Flowers re blooming');
-        break;
-    case 'Winter':
-        console.log('It\'s to chilly out here');
-        break;
-        default:
-            console.log('No Season');
-        break;
+const sentence = "Hello " + firstName + " " + LastName;
+const sentenceWithTemplate = `Hello ${firstName} ${LastName}! How are you!`
+
+console.log(sentence);
+console.log(sentenceWithTemplate)
+//Control Flow
+const skyIsBlue = true;
+
+if(skyIsBlue){
+    console.log("The sky is blue!");
+} else {
+    console.log("The sky is ... not blue?");
 }
+//for-loops
+let characters = 'hi lol'; 
+let timesToRepeat = 10;
+let answer = ' ';
+
+for(let i = 0; i < timesToRepeat; i++){
+  answer += characters;
+}
+  console.log(answer);
+
