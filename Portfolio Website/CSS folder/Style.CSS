@@ -8,13 +8,13 @@
 #Intro h2{
   margin:auto;
   margin-top: 25px;
-  width: 35%;
+  width:35%;
   padding:10px;
   background-color: black;
 }
 #Intro {
   margin:auto;
-  padding: 348px;
+  padding: 350px;
   background-image: url(../Pics/controller\ background.png);
   font-style: oblique;
   color: white;
@@ -53,7 +53,6 @@
 }
 /*body*/
 #main{
-background-color: #333;
 font-size: 25px;
 text-align: center;
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -62,13 +61,74 @@ color:white;
 body{
   margin:0;
 }
+/*About me section*/
+.About-me h1{
+  text-decoration: underline;
+}
 .About-me img{
   width: 5in;
   height:5in;
 }
 .About-me {
-  margin: auto;
-  width: 50%;
+  background-color: #333;
+  padding:50px;
+}
+.About-me p {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+/*Portfolio section*/
+.Portfolio {
+  background-color: #989898;
+  padding:10px;
+}
+.Portfolio h1{
+  text-decoration: underline;
+}
+.Portfolio p{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.sec-1{
+  background-color: black;
+  height:50px;
+  margin-left:840px;
+  margin-right:840px;
+}
+.sec-2{
+  display: flex;
+  justify-content: center;
+  gap: 50px 50px;
+}
+.Box-1{
+  text-decoration: underline;
+  border: 100px snow;
+  background-color: #ff3632;
+  height: 3.5in;
+  width: 4.5in;
+  margin-top: 20px;
+}
+.Box-2{
+  text-decoration: underline;
+  background-color: #ff3632;
+  height: 3.5in;
+  width: 4.5in;
+  margin-top:20px;
+}
+/*Footer section*/
+#Foot{
+font-size: 20px;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:white;
+}
+.Bottom{
+  padding:10px;
+  background-color: #333;
+}
+.Bottom a{
+  color:white;
+  text-decoration: none;
 }
 @media screen and (max-width:600px){
   #Intro img{
