@@ -1,19 +1,22 @@
 /*Header*/
+html {
+  scroll-behavior: smooth;
+}
 #Intro h1 {
   margin: auto;
   width: 30%;
-  padding:10px;
+  padding: 10px;
   background-color: black;
 }
-#Intro h2{
-  margin:auto;
+#Intro h2 {
+  margin: auto;
   margin-top: 25px;
-  width:35%;
-  padding:10px;
+  width: 35%;
+  padding: 10px;
   background-color: black;
 }
 #Intro {
-  margin:auto;
+  margin: auto;
   padding: 350px;
   background-image: url(../Pics/controller\ background.png);
   font-style: oblique;
@@ -28,8 +31,8 @@
   width: 100%;
   position: fixed;
 }
-#nav-bar img{
-  margin:0;
+#nav-bar img {
+  margin: 0;
 }
 .Nava ul {
   list-style-type: none;
@@ -47,60 +50,63 @@
   color: white;
   text-decoration: none;
 }
-.Nava a:hover{
+.Nava a:hover {
   text-decoration: underline;
-  color:red;
+  color: red;
+}
+.Nava a {
+  color: white;
 }
 /*body*/
-#main{
-font-size: 25px;
-text-align: center;
-font-family: Georgia, 'Times New Roman', Times, serif;
-color:white;
+#main {
+  font-size: 25px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
 }
-body{
-  margin:0;
+body {
+  margin: 0;
 }
 /*About me section*/
-.About-me h1{
+#About-me h1 {
   text-decoration: underline;
 }
-.About-me img{
+#About-me img {
   width: 5in;
-  height:5in;
+  height: 5in;
 }
-.About-me {
+#About-me {
   background-color: #333;
-  padding:50px;
+  padding: 50px;
 }
-.About-me p {
+#About-me p {
   margin-left: 200px;
   margin-right: 200px;
 }
 /*Portfolio section*/
-.Portfolio {
+#Portfolio {
   background-color: #989898;
-  padding:10px;
+  padding: 25px;
 }
-.Portfolio h1{
+#Portfolio h1 {
   text-decoration: underline;
 }
-.Portfolio p{
+#Portfolio p {
   margin-left: 200px;
   margin-right: 200px;
 }
-.sec-1{
+.sec-1 {
   background-color: black;
-  height:50px;
-  margin-left:840px;
-  margin-right:840px;
+  height: 50px;
+  margin-left: 840px;
+  margin-right: 840px;
 }
-.sec-2{
+.sec-2 {
   display: flex;
   justify-content: center;
   gap: 50px 50px;
 }
-.Box-1{
+.Box-1 {
   text-decoration: underline;
   border: 100px snow;
   background-color: #ff3632;
@@ -108,35 +114,45 @@ body{
   width: 4.5in;
   margin-top: 20px;
 }
-.Box-2{
+.Box-2 {
   text-decoration: underline;
   background-color: #ff3632;
   height: 3.5in;
   width: 4.5in;
-  margin-top:20px;
+  margin-top: 20px;
 }
 /*Footer section*/
-#Foot{
-font-size: 20px;
-text-align: center;
-font-family: Georgia, 'Times New Roman', Times, serif;
-color:white;
+#Foot {
+  font-size: 20px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
 }
-.Bottom{
-  padding:10px;
+.Bottom {
+  margin: 0;
+  padding: 200px;
   background-color: #333;
 }
-.Bottom a{
-  color:white;
+.Bottom a {
+  color: white;
   text-decoration: none;
 }
-@media screen and (max-width:600px){
-  #Intro img{
-      width:100%;
-      float:none;
+.end-Page {
+  background-color: rgb(32, 32, 32);
+  padding: 20px;
+
+}
+.end-Page img{
+  height: 50px;
+  width:50px;
+}
+@media screen and (max-width: 600px) {
+  #Intro img {
+    width: 100%;
+    float: none;
   }
-  #main{
-    width:100%;
-    float:none;
+  #main {
+    width: 100%;
+    float: none;
   }
 }
