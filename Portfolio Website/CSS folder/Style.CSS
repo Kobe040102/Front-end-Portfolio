@@ -95,11 +95,13 @@ body {
   margin-left: 200px;
   margin-right: 200px;
 }
-.sec-1 {
-  background-color: black;
-  height: 50px;
-  margin-left: 840px;
-  margin-right: 840px;
+.sec-1 h1 {
+ text-align: center;
+ background-color: black;
+ width: 200px;
+ height: 50px;
+ margin:auto;
+ border: 1px solid black;
 }
 .sec-2 {
   display: flex;
@@ -140,11 +142,10 @@ body {
 .end-Page {
   background-color: rgb(32, 32, 32);
   padding: 20px;
-
 }
-.end-Page img{
+.end-Page img {
   height: 50px;
-  width:50px;
+  width: 50px;
 }
 @media screen and (max-width: 600px) {
   #Intro img {
@@ -154,5 +155,9 @@ body {
   #main {
     width: 100%;
     float: none;
+  }
+  #body{
+    width:100%;
+    float:none;
   }
 }
