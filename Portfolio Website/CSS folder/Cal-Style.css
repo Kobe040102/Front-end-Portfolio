@@ -1,0 +1,313 @@
+body {
+	background-color:#faf0e6;
+	margin:0;
+	padding:0;
+}
+hr{
+	width:10in;
+}
+.cal-buttons button{
+	color:black;
+	border: 2.5px solid black;
+}
+#Cal2 {
+	display: flex;
+	margin-top:75px;
+	justify-content: center;
+	font-size:45px;	
+}
+.intro2{
+	font-family:Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+	font-size:20px;
+	margin-top:50px;
+	text-align: center;
+}
+#Pls {
+	color:white;
+	font-size:25px;
+	margin-top:75px;
+	text-align: center;
+}
+#Pls a:hover {
+	background-color:black;
+	color:White;
+}
+#Pls a {
+	padding:10px;
+	border: 2px solid black;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-decoration: none;
+	color:black;
+}
+#row1 {
+  display: flex;
+  justify-content: center;
+}
+#row1 :hover {
+  background-color: #ebebeb;
+}
+#row2 :hover {
+  background-color: #ebebeb;
+}
+#row3 :hover {
+  background-color: #ebebeb;
+}
+#row4 :hover {
+  background-color: #ebebeb;
+}
+#row5 :hover {
+  background-color: #ebebeb;
+}
+#row1 :active {
+  display: flex;
+  justify-content: center;
+}
+#row1 :active {
+  background-color: #bbbcbe;
+}
+#row2 :active {
+  background-color: #bbbcbe;
+}
+#row3 :active {
+  background-color: #bbbcbe;
+}
+#row4 :active {
+  background-color: #bbbcbe;
+}
+#row5 :active {
+  background-color: #bbbcbe;
+}
+
+/*Screen of calculator*/
+.screen {
+  font-size: 50px;
+  text-align: right;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 50px;
+  height: 50px;
+  width: 20%;
+  color: white;
+  background-color: black;
+  margin: auto;
+  margin-top: 50px;
+}
+/*first row of buttons*/
+.clear-button {
+  display: flex;
+  height: 100px;
+  width: 10%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+.delete-button {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+.division-button {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: orange;
+}
+/*second row of buttons*/
+#row2 {
+  display: flex;
+  justify-content: center;
+}
+.seven {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+.eight {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: lightgrey;
+}
+.nine {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+.multiply {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: orange;
+}
+/*Third row of buttons*/
+#row3 {
+  display: flex;
+  justify-content: center;
+}
+.four {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+.five {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: lightgrey;
+}
+.six {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+.minus {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: orange;
+}
+/*row four of buttons*/
+#row4 {
+  display: flex;
+  justify-content: center;
+}
+.one {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+.two {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: lightgrey;
+}
+.three {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+.addition {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: orange;
+}
+/*fifth row of buttons*/
+#row5 {
+  display: flex;
+  justify-content: center;
+}
+.zero {
+  display: flex;
+  height: 100px;
+  width: 15%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+.equal-button {
+  display: flex;
+  height: 100px;
+  width: 5%;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: orange;
+}
+@media screen and (max-width:600px){
+	hr{
+		width:6in;
+	}
+}
+@media screen and (max-width:1000px){
+	hr{
+		width:6in;
+	}
+}
+
+@media screen and (max-width:1024px){
+	hr{
+		width:4.5in;
+	}
+	.screen{
+		width:43%;
+}
+	.cal-buttons button{
+		width:10%;
+	
+	}
+	#row1 button{
+		width:14.2%;
+	}
+	#row5 button{
+		width:21.3%;
+	}
+}

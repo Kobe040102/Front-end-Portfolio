@@ -1,69 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kobe Shelby | Front-end Developer</title>
-    <link rel="stylesheet" href="../CSS folder/Style.CSS" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../CSS folder/Style-HomePage.css">
+    <script src="../JavaScript/nar-jar.js" defer></script>
+    <title>Kobe Shelby</title>
   </head>
-  <!----Header---->
-  <header id="Intro">
-    <h1>Kobe Shelby</h1>
-    <h2>Front-End Developer</h2>
-  </header>
-  <!----Navagation-->
-  <nav id="nav-bar">
-    <div class="Nava">
-      <ul>
-        <li><a href="#Intro">Home</a></li>
-        <li><a href="#About-me">About</a></li>
-        <li><a href="#Portfolio">Portfolio</a></li>
-        <li><a href=#Foot>Contact</a></li>
-      </ul>
+  <!---Body--->
+  <body>
+    <nav class="navbar">
+      <div class="Title"><h1 class="Name">Kobe Shelby</h1></div>
+      <a href="#" class="Toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Portfolilo.html">Portfolilo</a></li>
+          <li><a href="Photography.html">Photography</a></li>
+          <li><a href="Travels.html">Travels</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/kobe-shelby-032863128/"
+              ><img src="../Pics/Linklin logo.png" alt="linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/Kobe040102"
+              ><img src="../Pics/github logo.png" alt="Github"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="Welcome">
+      <h1 class="Hi">Welcome!</h1>
     </div>
-  </nav>
-  <!----Body---->
-  <body id="main">
-    <div id ="About-me">
-      <h1>GET TO KNOW ME!</h1>
-      <img src="../Pics/KobeShelby.jpg" alt="Me" />
-      <p>
-        Hello, my name is Kobe Shelby and I am a Front-End Developer located in
-        East Bay. I was introduced to web development in college and learned the
-        fundamentals of HTML, CSS, and JavaScript to develop web applications.
-        Web development has help me open my creative mind and allowed me to
-        satifsy my desire for constant growth.
-      </p>
+    <hr class="Pos-line" />
+    <div class="flex-container">
+      <div class="flex-child magenta">
+        <img class="ME" src="../Pics/Kobe-Shelby.jpg" alt="Me" />
+      </div>
+
+      <div class="flex-child green">
+        <p>
+          Resilient and ambitious individual that specializes in frontend web
+          development and design. Born and raised in East Bay California, I was
+          introduced to web development in college and learned JavaScript to
+          develop responsive web applications. Web development has help me open
+          and shape my creative mind, which allowed me to satisfy my desire for
+          constant growth. Excited to get the chance to meet different people
+          and bring new ideas in the tech-field. <br />
+          <span>*This Site was developed in Dreamweaver*</span>
+        </p>
+      </div>
     </div>
-    <div id = "Portfolio">
-      <h1>Portfolio!</h1>
-      <p>
-        Here are some demonstrations of my latest projects built with HTML, CSS,
-        and JavaScript. My Portfolio offers a insight into my recent
-        accomplishments.
-      </p>
-      <section class="sec-1">
-        <h1>Projects</h1>
-      </section>
-      <section class="sec-2">
-        <div class="Box-1">Calulator</div>
-        <div class="Box-2">Shoe Store</div>
-      </section>
+    <hr class="pos" />
+    <div id="Pls">
+      <h1 class="pro">Please take the time to look at my portfolilo</h1>
+      <h1><a class="Port" href="Portfolilo.html">Portfolilo</a></h1>
+      <h1 class="Contac"><a href="Contact.html">Contact</a></h1>
     </div>
   </body>
-  <!----Footer---->
-  <footer id="Foot">
-    <div class="Bottom">
-      <h1>PLEASE GET IN TOUCH!</h1>
-      <h2>You can reach me via email</h2>
-      <h1 class="email">
-        <a href="https://mail.yahoo.com/d/compose/9744257898">Kobe04_Shelby@yahoo.com</a>
-      </h1>
-    </div>
-    <div class = "end-Page">
-    <a href = "https://www.linkedin.com/in/kobe-shelby-032863128/"><img src = "../Pics/Linklin logo.png" alt = "Me"></a>
-    <a href = "https://github.com/Kobe040102/Front-end-Portfolio"><img src = "../Pics/github logo.png" alt = "Me"></a>   
-    </div>
-  </footer>
 </html>

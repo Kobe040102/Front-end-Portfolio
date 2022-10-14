@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact | Kobe Shelby</title>
+    <link
+      href="../CSS folder/Contact-Style.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="../JavaScript/nar-jar.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="Title"><h1 class="Name">Kobe Shelby</h1></div>
+      <a href="#" class="Toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Portfolilo.html">Portfolilo</a></li>
+          <li><a href="Photography.html">Photography</a></li>
+          <li><a href="Travels.html">Travels</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/kobe-shelby-032863128/"
+              ><img src="../Pics/Linklin logo.png" alt="linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/Kobe040102"
+              ><img src="../Pics/github logo.png" alt="Github"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="Contact">
+      <h1 class="Cont">Contact</h1>
+    </div>
+    <hr />
+    <p class="intro2">
+      Currently accepting questions, thoughts, bussiness inquires...
+    </p>
+    <div class="wrapper">
+      <form class="contact-form" action="contactform.php" method="post">
+        <div class="input-fields">
+          <label
+            ><input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="First name"
+          /></label>
+          <label
+            ><input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Last name"
+          /></label>
+          <label
+            ><input
+              type="email"
+              id="Ename"
+              name="Email"
+              placeholder="Email Address"
+          /></label>
+          <label
+            ><input type="text" id="Sname" name="Subject" placeholder="Subject"
+          /></label>
+        </div>
+        <div class="msg">
+          <textarea name="message" placeholder="Message"></textarea>
+          <button type="submit" name="submit" class="btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
